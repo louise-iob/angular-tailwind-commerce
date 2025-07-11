@@ -1,6 +1,10 @@
 # AngularEcommerce
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15. Tailwind CSS version 3.4.17 was used for quick styling. The steps followed to install and import Tailwind with Angular can be found here:
+
+https://v3.tailwindcss.com/docs/installation/using-postcss
+
+The steps will differ when using version 4.1.
 
 ## Development server
 
@@ -11,6 +15,12 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+You can also use:
+
+```bash
+ng dev
+```
 
 ## Code scaffolding
 
