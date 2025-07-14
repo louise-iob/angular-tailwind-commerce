@@ -4,7 +4,7 @@ import { Component, input, output } from '@angular/core';
   selector: 'app-primary-button',
   imports: [],
   template: `
-    <button (click)="handleButtonClick()">
+    <button (click)="btnClicked.emit()">
       <!-- We are listening for the signal's value -->
       {{ label() }} 
     </button>
@@ -15,10 +15,5 @@ export class PrimaryButtonComponent {
   label = input(''); // the type we expect is a string
 
   btnClicked = output();
-
-  // Event handler for button click (a.k.a onClick)
-  handleButtonClick() {
-    this.btnClicked.emit();
-  }
 
 }
